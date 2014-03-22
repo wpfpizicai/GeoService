@@ -1,0 +1,31 @@
+{
+  	"name": "GeoService",
+  	"description": "help you find the visitors send msg to your visitors & let the visitors share information with each other",
+  	"version": "0.0.1",
+  	"private": true,
+  	"keywords":[
+  		"geolocation",
+  		"mongodb"
+  	],
+  	"maintainers": [
+  		{
+  			"name": "wpfpizicai",
+  			"email": "tjuwpf@163.com"
+  		}
+  	],
+  	"repositories": [
+	  	{
+	  		"type": "git",
+  			"url": "http://github.com/wpfpizicai/GeoService"
+	  	}
+  	],
+  	"scripts": {
+    	"start": "node app.js"
+  	},
+  	"dependencies": {
+    	"express": "3.x",
+    	"jade": "*",
+    	"mongodb": "*",
+    	"mongoose": "*"
+  	}
+}
