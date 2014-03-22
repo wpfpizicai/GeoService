@@ -19,6 +19,10 @@
   			"url": "http://github.com/wpfpizicai/GeoService"
 	  	}
   	],
+    "license": "MIT",
+    "bugs": {
+        "url" : "http://github.com/wpfpizicai/GeoService/issues"
+    },
   	"scripts": {
     	"start": "node app.js"
   	},
@@ -27,5 +31,8 @@
     	"jade": "*",
     	"mongodb": "*",
     	"mongoose": "*"
-  	}
+  	},
+    "engines": {
+        "node" : "0.10.x"
+    }
 }
